@@ -348,7 +348,147 @@ Transcribe audio with a Whisper ASR model.
 #### Response 200
 
 ```json
-
+{
+  "text": " I found that nothing in life is worthwhile unless you take risks. Nothing. Nelson Mandela said, there is no passion to be found playing small and settling for a life that's less than the one you're capable of living. Now I'm sure in your experiences in school and applying to college and...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0,
+      "end": 7,
+      "text": " I found that nothing in life is worthwhile unless you take risks.",
+      "tokens": [
+        50363,
+        314,
+        1043,
+        326,
+        2147,
+        287,
+        1204,
+        318,
+        24769,
+        4556,
+        345,
+        1011,
+        7476,
+        13,
+        50713
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.19224673257747166,
+      "compression_ratio": 1.5508021390374331,
+      "no_speech_prob": 0.013612011447548866
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7,
+      "end": 9,
+      "text": " Nothing.",
+      "tokens": [
+        50713,
+        10528,
+        13,
+        50813
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.19224673257747166,
+      "compression_ratio": 1.5508021390374331,
+      "no_speech_prob": 0.013612011447548866
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9,
+      "end": 15,
+      "text": " Nelson Mandela said, there is no passion to be found playing small",
+      "tokens": [
+        50813,
+        12996,
+        40233,
+        531,
+        11,
+        612,
+        318,
+        645,
+        7506,
+        284,
+        307,
+        1043,
+        2712,
+        1402,
+        51113
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.19224673257747166,
+      "compression_ratio": 1.5508021390374331,
+      "no_speech_prob": 0.013612011447548866
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 15,
+      "end": 20,
+      "text": " and settling for a life that's less than the one you're capable of living.",
+      "tokens": [
+        51113,
+        290,
+        25446,
+        329,
+        257,
+        1204,
+        326,
+        338,
+        1342,
+        621,
+        262,
+        530,
+        345,
+        821,
+        6007,
+        286,
+        2877,
+        13,
+        51363
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.19224673257747166,
+      "compression_ratio": 1.5508021390374331,
+      "no_speech_prob": 0.013612011447548866
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 20,
+      "end": 24,
+      "text": " Now I'm sure in your experiences in school and applying to college and...",
+      "tokens": [
+        51363,
+        2735,
+        314,
+        1101,
+        1654,
+        287,
+        534,
+        6461,
+        287,
+        1524,
+        290,
+        11524,
+        284,
+        4152,
+        290,
+        986,
+        51563
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.19224673257747166,
+      "compression_ratio": 1.5508021390374331,
+      "no_speech_prob": 0.013612011447548866
+    }
+  ],
+  "language": "en"
+}
 ```
 
 #### Response 400
