@@ -5,8 +5,6 @@
 ![contributors](https://img.shields.io/github/contributors/matusstas/openai-whisper-microservice)
 ![docker pulls](https://img.shields.io/docker/pulls/matusstas/openai-whisper-microservice)
 ![docker stars](https://img.shields.io/docker/stars/matusstas/openai-whisper-microservice)
-![repo size](https://img.shields.io/github/repo-size/matusstas/openai-whisper-microservice)
-![total lines](https://img.shields.io/tokei/lines/github/matusstas/openai-whisper-microservice)
 
 The authors claim that Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
 
