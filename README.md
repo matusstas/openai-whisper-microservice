@@ -34,7 +34,17 @@ https://github.com/openai/whisper
 
 # Docker Hub
 
-todo
+* repository
+
+https://hub.docker.com/r/matusstas/openai-whisper-microservice
+
+* latest
+
+`docker pull matusstas/openai-whisper-microservice:latest`
+
+* 1.0.0
+
+`docker pull matusstas/openai-whisper-microservice:1.0.0`
 
 # Swagger API documentation
 
