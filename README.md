@@ -1,5 +1,13 @@
 # OpenAI Whisper API
 
+![license](https://img.shields.io/github/license/matusstas/openai-whisper-microservice)
+![last commit](https://img.shields.io/github/last-commit/matusstas/openai-whisper-microservice)
+![contributors](https://img.shields.io/github/contributors/matusstas/openai-whisper-microservice)
+![docker pulls](https://img.shields.io/docker/pulls/matusstas/openai-whisper-microservice)
+![docker stars](https://img.shields.io/docker/stars/matusstas/openai-whisper-microservice)
+![repo size](https://img.shields.io/github/repo-size/matusstas/openai-whisper-microservice)
+![total lines](https://img.shields.io/tokei/lines/github/matusstas/openai-whisper-microservice)
+
 The authors claim that Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
 
 A Transformer sequence-to-sequence model is trained on various speech processing tasks, including multilingual speech recognition, speech translation, spoken language identification, and voice activity detection. These tasks are jointly represented as a sequence of tokens to be predicted by the decoder, allowing a single model to replace many stages of a traditional speech-processing pipeline. The multitask training format uses a set of special tokens that serve as task specifiers or classification targets.
