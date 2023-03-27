@@ -125,8 +125,8 @@ async def detect_language(model_name: str, file: UploadFile = File(...), db = De
 async def transcribe_audio(model_name: str,
                            task: str = Form(..., enum=["transcribe", "translate"]),
                            language_code: str = Form(..., enum=sorted(list(whisper.tokenizer.LANGUAGES.keys()))),
-                           format: str = Form(..., enum=["json", "srt", "tsv", "txt", "vtt"]),
                            media_type: str = Form(..., enum=["application/json", "text/plain"]),
+                           format: str = Form(..., enum=["json", "srt", "tsv", "txt", "vtt"]),
                            file: UploadFile = File(...),
                            db = Depends(get_db)):
     """

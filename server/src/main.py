@@ -5,18 +5,10 @@ from src.routes.model import router as Model
 from src.routes.language import router as Language
 from src.routes.miscellaneous import router as Miscellaneous
 
-# # Add openAPI tags to Swagger
-# openapi_tags = [
-#     {
-#         "name": "Post",
-#         "description": "Endpoints are responsible for post operations.",
-#     },
-# ]
 
 # Create FastAPI app
 app = FastAPI(
-    title="Server",
-    # openapi_tags=openapi_tags,
+    title="Whisper API",
 )
 
 # Add Middleware
@@ -40,6 +32,4 @@ async def root():
     """
     Return message from container to check if it is running.
     """
-    return {"detail":"Container is running"}
-
-# torch==2.0.0+cu117
+    return {"detail":"Whisper API is running"}
