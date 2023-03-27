@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: ./Dockerfile
+    ports:
+      - 80:80
+    volumes:
+      - models:/root/.cache/whisper
+      - db:/app/db
+
+volumes:
+  models:
+  db:

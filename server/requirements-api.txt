@@ -1,0 +1,5 @@
+tinydb==4.7.1
+fastapi==0.63.0
+starlette==0.13.6
+python-multipart==0.0.6
+uvicorn[standard]==0.13.4
