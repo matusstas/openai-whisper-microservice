@@ -46,7 +46,7 @@ After successfully starting the image, the Swagger documentation will be availab
 
 The API currently provides 12 endpoints, which are divided into 4 groups according to their use.
 
-![Swagger](todo)
+![Endpoints](https://github.com/matusstas/openai-whisper-microservice/blob/main/documentation/endpoints.png)
 
 ## Model
 
