@@ -35,7 +35,11 @@ https://github.com/openai/whisper
 
 # Run
 
-`docker-compose up -d --build`
+```bash
+git clone https://github.com/matusstas/openai-whisper-microservice.git
+cd openai-whisper-microservice
+docker-compose up -d --build
+```
 
 
 # Docker Hub
