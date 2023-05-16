@@ -1,11 +1,14 @@
 # OpenAI Whisper API
 
-![license](https://img.shields.io/github/license/matusstas/openai-whisper-microservice)
-![last commit](https://img.shields.io/github/last-commit/matusstas/openai-whisper-microservice)
-![contributors](https://img.shields.io/github/contributors/matusstas/openai-whisper-microservice)
+**IF YOU FIND THIS REPOSITORY HELPFUL, PLEASE CONSIDER STARRING IT.**
+
+![github clones](https://img.shields.io/badge/clones-50%2B-blueviolet)
 ![docker pulls](https://img.shields.io/docker/pulls/matusstas/openai-whisper-microservice)
 ![docker stars](https://img.shields.io/docker/stars/matusstas/openai-whisper-microservice)
-![github clones](https://img.shields.io/badge/clones-50%2B-blueviolet)
+![contributors](https://img.shields.io/github/contributors/matusstas/openai-whisper-microservice)
+![license](https://img.shields.io/github/license/matusstas/openai-whisper-microservice)
+![last commit](https://img.shields.io/github/last-commit/matusstas/openai-whisper-microservice)
+
 
 The authors claim that Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
 
