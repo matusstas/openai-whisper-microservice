@@ -2,7 +2,7 @@
 
 **IF YOU FIND THIS REPOSITORY HELPFUL, PLEASE CONSIDER STARRING IT.**
 
-![github clones](https://img.shields.io/badge/clones-50%2B-blueviolet)
+![github clones](https://img.shields.io/badge/clones-75%2B-blueviolet)
 ![docker pulls](https://img.shields.io/docker/pulls/matusstas/openai-whisper-microservice)
 ![docker stars](https://img.shields.io/docker/stars/matusstas/openai-whisper-microservice)
 ![contributors](https://img.shields.io/github/contributors/matusstas/openai-whisper-microservice)
