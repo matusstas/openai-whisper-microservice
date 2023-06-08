@@ -648,9 +648,10 @@ For example, the data in the file might looks like this:
 * downloaded: true = Whisper ASR model was downloaded
 * downloaded: false = Whisper ASR model is still downloading
 
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=matusstas/openai-whisper-microservice&type=Date)](https://star-history.com/#matusstas/openai-whisper-microservice)
 
 # Todo
 
 * GPU support (I'm working on it right now)
-
-
