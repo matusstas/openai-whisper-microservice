@@ -152,9 +152,9 @@ async def transcribe_audio(model_name: str,
         
     filename = file.filename.split(".")[0]
     file_out = io.StringIO()
-    eval(f"Write{format.upper()}(ResultWriter).write_result(result, file=file_out)")
+    eval(f"whisper.utils.Write{format.upper()}('.').write_result(result, file=file_out)")
     file_out.seek(0)
-
+    
     return StreamingResponse(file_out,
                              media_type = "text/plain",
                              headers = {

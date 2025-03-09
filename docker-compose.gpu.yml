@@ -8,6 +8,13 @@ services:
     volumes:
       - models:/root/.cache/whisper
       - db:/app/db
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
 
 volumes:
   models:
